@@ -230,6 +230,18 @@
             key-positions = <40 41>;
             layers = <0 1>;
         };
+
+        combo_game {
+            bindings = <&to 12>;
+            key-positions = <53 54 55>;
+            layers = <0>;
+        };
+
+        combo_game_reverse {
+            bindings = <&to 0>;
+            key-positions = <53 54 55>;
+            layers = <12>;
+        };
     };
 
     keymap {
