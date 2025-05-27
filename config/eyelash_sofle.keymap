@@ -108,6 +108,82 @@
     behaviors {
     };
 
+    macros {
+        macro_git_amend: macro_git_amend {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp G &kp I &kp T &kp SPACE &kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE &kp MINUS &kp MINUS &kp A &kp M &kp E &kp N &kp D &kp SPACE &kp MINUS &kp MINUS &kp N &kp O &kp MINUS &kp E &kp D &kp I &kp T>;
+            label = "MACRO_GIT_AMEND";
+        };
+
+        macro_vim_save: macro_vim_save {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp COLON &kp W &kp RET>;
+            label = "MACRO_VIM_SAVE";
+        };
+
+        macro_vim_quit: macro_vim_quit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp COLON &kp Q &kp RET>;
+            label = "MACRO_VIM_QUIT";
+        };
+
+        macro_tmux_switch: macro_tmux_switch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(B) &kp Q>;
+            label = "MACRO_TMUX_SWITCH";
+        };
+
+        macro_alt_tab: macro_alt_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&none>,
+                <&macro_press>,
+                <&kp LEFT_ALT &kp TAB>,
+                <&macro_release>,
+                <&kp TAB>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "MACRO_ALT_TAB";
+        };
+
+        macro_gui_tab: macro_gui_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&none>,
+                <&macro_press>,
+                <&kp LEFT_WIN &kp TAB>,
+                <&macro_release>,
+                <&kp TAB>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_GUI_TAB";
+        };
+
+        tmux: tmux {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&none &kp LC(B) &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            label = "TMUX";
+        };
+
+        macro_vim_clipboard: macro_vim_clipboard {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp DQT &kp PLUS>;
+            label = "MACRO_VIM_CLIPBOARD";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -146,21 +222,21 @@
 
         Up_Win {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &trans                &trans           &trans            &trans          &trans               &trans  &trans         &trans              &trans        &trans               &trans         &trans
+&kp LS(LA(LC(LG(TAB))))  &kp LA(F4)            &kp LC(LS(TAB))  &kp LC(LS(A))     &kp LC(TAB)     &kp LG(TAB)          &trans  &kp PAGE_UP    &kp LC(LEFT_ARROW)  &kp UP_ARROW  &kp LC(RIGHT_ARROW)  &kp LC(EQUAL)  &kp BACKSPACE
+&kp LS(LEFT_WIN)         &sk LEFT_WIN          &sk LEFT_ALT     &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp CAPS             &trans  &kp PAGE_DOWN  &kp LEFT            &kp DOWN      &kp RIGHT_ARROW      &kp LC(MINUS)  &trans
+&kp LC(ESCAPE)           &macro_vim_clipboard  &trans           &kp LC(C)         &kp LC(V)       &kp LC(X)            &trans  &trans         &kp HOME            &trans        &kp END              &kp LC(N0)     &trans
+&trans                   &trans                &trans           &macro_alt_tab    &caps_word      &kp LC(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
             >;
         };
 
         Up_Mac {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans                &trans           &trans            &trans          &trans               &trans  &trans         &trans              &trans        &trans               &trans         &trans
+&kp LA(TAB)           &kp LG(Q)             &kp LC(LS(TAB))  &kp LG(LS(A))     &kp LC(TAB)     &kp LC(UP_ARROW)     &trans  &kp PAGE_UP    &kp LA(LEFT_ARROW)  &kp UP_ARROW  &kp LA(RIGHT_ARROW)  &kp LC(EQUAL)  &kp BACKSPACE
+&kp LA(LC(LEFT_WIN))  &sk LEFT_WIN          &sk LEFT_ALT     &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp CAPS             &trans  &kp PAGE_DOWN  &kp LEFT            &kp DOWN      &kp RIGHT_ARROW      &kp LC(MINUS)  &trans
+&kp LC(ESCAPE)        &macro_vim_clipboard  &trans           &kp LG(C)         &kp LG(V)       &kp LG(X)            &trans  &trans         &kp LG(LEFT)        &trans        &kp LG(RIGHT)        &kp LC(N0)     &kp LG(GRAVE)
+&trans                &trans                &trans           &macro_gui_tab    &caps_word      &kp LA(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
             >;
         };
 
