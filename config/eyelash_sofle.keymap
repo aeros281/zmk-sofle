@@ -298,11 +298,11 @@
 
         Mouse {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans    &mmv MOVE_UP     &trans          &trans          &trans          &trans           &trans  &trans
-&trans  &trans    &trans    &trans     &trans     &trans    &mmv MOVE_DOWN   &msc SCRL_UP    &trans          &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &mmv MOVE_LEFT   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans    &trans    &trans     &trans     &trans    &mmv MOVE_RIGHT  &trans          &trans          &trans          &trans           &trans  &trans
-&trans  &trans    &trans    &trans     &trans     &trans    &mkp LCLK        &mkp LCLK       &mkp RCLK       &trans          &trans           &trans
+&trans  &trans    &trans    &trans     &trans     &trans    &mmv MOVE_UP     &trans          &trans          &trans          &trans           &trans     &trans
+&trans  &trans    &trans    &trans     &trans     &trans    &mmv MOVE_DOWN   &msc SCRL_UP    &trans          &mmv MOVE_UP    &trans           &trans     &trans
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &mmv MOVE_LEFT   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK
+&trans  &trans    &trans    &trans     &trans     &trans    &mmv MOVE_RIGHT  &trans          &trans          &trans          &trans           &trans     &trans
+&trans  &trans    &trans    &trans     &trans     &trans    &mkp LCLK        &trans          &trans          &trans          &trans           &trans
             >;
 
             display-name = "Mouse";
@@ -376,6 +376,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &kp ASTERISK  &kp N1  &kp N2  &kp N3  &kp FSLH   &trans
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans        &trans  &kp N0  &trans  &trans
             >;
+
             display-name = "Num_Alt";
         };
 
