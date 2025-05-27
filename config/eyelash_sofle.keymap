@@ -299,7 +299,7 @@
 &trans                   &trans                &trans           &macro_alt_tab    &caps_word      &kp LC(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
             >;
 
-            display-name = "Up_Mac";
+            display-name = "Up_Win";
         };
 
         Up_Mac {
@@ -400,11 +400,11 @@
 
         Game {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3     &kp N4   &kp N5    &trans  &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
-&kp TAB    &kp Q   &kp W   &kp E      &kp R    &kp T     &to 0   &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
-&kp LCTRL  &kp A   &kp S   &kp D      &kp F    &kp G     &trans  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z   &kp X   &kp C      &kp V    &kp B     &trans  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&trans     &mo 14  &mo 13  &kp SPACE  &kp ESC  &kp N0    &trans  &kp ENTER  &trans  &kp ENTER  &trans   &trans
+&kp GRAVE  &kp N1         &kp N2  &kp N3  &kp N4     &kp N5        &trans  &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
+&kp TAB    &kp Q          &kp W   &kp E   &kp R      &kp T         &to 0   &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
+&kp LCTRL  &kp A          &kp S   &kp D   &kp F      &kp G         &trans  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z          &kp X   &kp C   &kp V      &kp B         &trans  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&trans     &kp BACKSPACE  &mo 14  &mo 13  &kp SPACE  &kp ESCAPE    &trans  &kp ENTER  &trans  &kp ENTER  &trans   &trans
             >;
 
             label = "Game";
