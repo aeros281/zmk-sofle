@@ -114,8 +114,7 @@
             #binding-cells = <0>;
             bindings = <&none &kp G &kp I &kp T &kp SPACE &kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE &kp MINUS &kp MINUS &kp A &kp M &kp E &kp N &kp D &kp SPACE &kp MINUS &kp MINUS &kp N &kp O &kp MINUS &kp E &kp D &kp I &kp T>;
             label = "MACRO_GIT_AMEND";
-            wait-ms = <30>;
-            tap-ms = <30>;
+            tap-ms = <5>;
         };
 
         macro_vim_save: macro_vim_save {
