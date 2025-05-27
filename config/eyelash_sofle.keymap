@@ -26,6 +26,8 @@
     trigger-period-ms = <16>;
 };
 
+&sk { quick-release; };
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -33,6 +35,76 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
         tap-ms = <100>;
+    };
+
+    hml: homerow_mods_left {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_MODS_LEFT_HAND";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        quick-tap-ms = <175>;
+        require-prior-idle-ms = <115>;
+        flavor = "balanced";
+        hold-trigger-key-positions = <7 20 33 46 47 48 49 50 51 38 37 35 36 34 21 22 23 24 25 12 11 10 9 8 60 61 62 63 59>;
+        hold-trigger-on-release;
+    };
+
+    hmr: homerow_mods_right {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_MODS_RIGHT_HAND";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        quick-tap-ms = <175>;
+        require-prior-idle-ms = <115>;
+        flavor = "balanced";
+        hold-trigger-key-positions = <0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44 53 54 55 56 57>;
+        hold-trigger-on-release;
+    };
+
+    layer_mt: layer_mt {
+        compatible = "zmk,behavior-hold-tap";
+        label = "LAYER_MT";
+        bindings = <&kp>, <&to>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+    };
+
+    lt_prefer_tap: lt_prefer_tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "LT_PREFER_TAP";
+        bindings = <&mo>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        require-prior-idle-ms = <75>;
+        flavor = "tap-preferred";
+    };
+
+    lt_prefer_hold: lt_prefer_hold {
+        compatible = "zmk,behavior-hold-tap";
+        label = "LT_PREFER_HOLD";
+        bindings = <&mo>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <150>;
+        flavor = "hold-preferred";
+        hold-while-undecided;
+    };
+
+    mt_prefer_tap: mt_prefer_tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MT_PREFER_TAP";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        flavor = "tap-preferred";
+        require-prior-idle-ms = <75>;
     };
 
     behaviors {
