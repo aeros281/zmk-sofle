@@ -33,7 +33,7 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
-  - '&macro_win_lang'
+  - Meh+F2
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - Meh+F1
   - N
   - M
   - {t: ',', s: <}
@@ -813,7 +813,7 @@ layers:
   - D
   - F
   - G
-  - '&macro_win_lang'
+  - Meh+F2
   - H
   - J
   - K
@@ -826,7 +826,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Meh+F1
   - N
   - M
   - {t: ',', s: <}
