@@ -266,11 +266,11 @@
 
         Win {
             bindings = <
-&kp GRAVE                           &kp N1           &kp N2           &kp N3               &kp N4             &kp N5                         &to 1            &kp N6                  &kp N7              &kp N8               &kp N9           &kp N0              &kp MINUS
-&kp TAB                             &kp Q            &kp W            &kp E                &kp R              &kp T                          &to 12           &kp Y                   &kp U               &kp I                &kp O            &kp P               &kp BSLH
-&mt_prefer_tap LEFT_CONTROL ESCAPE  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G                          &macro_win_lang  &kp H                   &hmr RIGHT_SHIFT J  &hmr LEFT_CONTROL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMI  &kp APOS
-&kp LSHFT                           &kp Z            &kp X            &kp C                &kp V              &kp B                          &kp RIGHT_ARROW  &kp N                   &kp M               &kp COMMA            &kp DOT          &kp FSLH            &kp ENTER
-&kp C_MUTE                          &none            &none            &lt 6 LEFT_ALT       &lt 5 ENTER        &lt_prefer_hold 2 BACKSPACE    &kp ENTER        &lt_prefer_tap 3 SPACE  &mo 7               &lt 9 LEFT_WIN       &none            &none
+&kp GRAVE                           &kp N1           &kp N2           &kp N3               &kp N4             &kp N5                         &to 1               &kp N6                  &kp N7              &kp N8               &kp N9           &kp N0              &kp MINUS
+&kp TAB                             &kp Q            &kp W            &kp E                &kp R              &kp T                          &to 12              &kp Y                   &kp U               &kp I                &kp O            &kp P               &kp BSLH
+&mt_prefer_tap LEFT_CONTROL ESCAPE  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G                          &kp LC(LA(LS(F2)))  &kp H                   &hmr RIGHT_SHIFT J  &hmr LEFT_CONTROL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMI  &kp APOS
+&kp LSHFT                           &kp Z            &kp X            &kp C                &kp V              &kp B                          &kp LA(LC(LS(F1)))  &kp N                   &kp M               &kp COMMA            &kp DOT          &kp FSLH            &kp ENTER
+&kp C_MUTE                          &none            &none            &lt 6 LEFT_ALT       &lt 5 ENTER        &lt_prefer_hold 2 BACKSPACE    &kp ENTER           &lt_prefer_tap 3 SPACE  &mo 7               &lt 9 LEFT_WIN       &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -411,11 +411,11 @@
 
         Game {
             bindings = <
-&kp GRAVE  &kp N1         &kp N2  &kp N3  &kp N4     &kp N5        &trans           &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
-&kp TAB    &kp Q          &kp W   &kp E   &kp R      &kp T         &to 0            &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
-&kp LCTRL  &kp A          &kp S   &kp D   &kp F      &kp G         &macro_win_lang  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z          &kp X   &kp C   &kp V      &kp B         &trans           &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&trans     &kp BACKSPACE  &mo 15  &mo 13  &kp SPACE  &kp ESCAPE    &trans           &kp ENTER  &trans  &kp ENTER  &trans   &trans
+&kp GRAVE  &kp N1         &kp N2  &kp N3  &kp N4     &kp N5        &trans              &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
+&kp TAB    &kp Q          &kp W   &kp E   &kp R      &kp T         &to 0               &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
+&kp LCTRL  &kp A          &kp S   &kp D   &kp F      &kp G         &kp LC(LA(LS(F2)))  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z          &kp X   &kp C   &kp V      &kp B         &kp LC(LA(LS(F1)))  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&trans     &kp BACKSPACE  &mo 15  &mo 13  &kp SPACE  &kp ESCAPE    &trans              &kp ENTER  &trans  &kp ENTER  &trans   &trans
             >;
 
             label = "Game";
