@@ -256,6 +256,7 @@
 &trans                      &trans  &trans  &trans  &trans  &trans    &trans           &trans                  &trans  &trans  &trans  &trans  &trans
 &trans                      &trans  &trans  &trans  &trans  &trans    &trans           &lt_prefer_tap 4 SPACE  &trans  &trans  &trans  &trans
             >;
+            display-name = "Mac";
         };
 
         NumSym {
@@ -266,6 +267,7 @@
 &trans     &kp CARET        &kp AMPERSAND  &kp LESS_THAN  &kp GREATER_THAN  &kp ASTERISK    &trans  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE       &kp BACKSLASH    &kp GRAVE
 &trans     &trans           &trans         &trans         &trans            &trans          &trans  &trans     &trans                &trans                 &trans          &trans
             >;
+            display-name = "NumSym";
         };
 
         Up_Win {
@@ -286,6 +288,7 @@
 &kp LC(ESCAPE)        &macro_vim_clipboard  &trans           &kp LG(C)         &kp LG(V)       &kp LG(X)            &trans  &trans         &kp LG(LEFT)        &trans        &kp LG(RIGHT)        &kp LC(N0)     &kp LG(GRAVE)
 &trans                &trans                &trans           &macro_gui_tab    &caps_word      &kp LA(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
             >;
+            display-name = "Up_Mac";
         };
 
         Mouse {
@@ -296,6 +299,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &mmv MOVE_RIGHT  &trans          &trans          &trans          &trans           &trans  &trans
 &trans  &trans    &trans    &trans     &trans     &trans    &mkp LCLK        &mkp LCLK       &mkp RCLK       &trans          &trans           &trans
             >;
+            display-name = "Mouse";
         };
 
         Fun {
@@ -306,6 +310,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans  &kp F1  &kp F2  &kp F3  &trans   &trans
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+            display-name = "Fun";
         };
 
         Macros {
@@ -316,6 +321,7 @@
 &kp LC(B)  &trans              &trans           &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans              &trans           &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+            display-name = "Macros";
         };
 
         Tmux {
@@ -326,6 +332,7 @@
 &kp LC(B)  &tmux Z  &tmux X  &tmux C  &tmux DOUBLE_QUOTES  &tmux B    &trans  &tmux DOLLAR   &tmux N1  &tmux N2  &tmux N3  &tmux FSLH  &trans
 &trans     &trans   &trans   &trans   &trans               &trans     &trans  &trans         &trans    &trans    &trans    &trans
             >;
+            display-name = "Tmux";
         };
 
         Media {
@@ -336,6 +343,7 @@
 &trans  &trans  &kp C_VOLUME_DOWN  &kp C_MUTE  &kp C_VOLUME_UP  &trans          &trans  &trans  &trans      &trans    &trans      &trans  &trans
 &trans  &trans  &trans             &trans      &trans           &trans          &trans  &trans  &trans      &trans    &trans      &trans
             >;
+            display-name = "Media";
         };
 
         Sys {
@@ -346,6 +354,7 @@
 &trans          &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
+            display-name = "Sys";
         };
 
         Num_Alt {
@@ -357,6 +366,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans        &trans  &kp N0  &trans  &trans
             >;
         };
+            display-name = "Num_Alt";
     };
 
     conditional_layers {
