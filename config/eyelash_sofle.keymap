@@ -376,6 +376,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &kp ASTERISK  &kp N1  &kp N2  &kp N3  &kp FSLH   &trans
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans        &trans  &kp N0  &trans  &trans
             >;
+            display-name = "Num_Alt";
         };
 
         Game {
@@ -413,8 +414,6 @@
 
             label = "GNav";
         };
-
-        display-name = "Num_Alt";
     };
 
     conditional_layers {
