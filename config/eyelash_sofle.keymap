@@ -247,6 +247,18 @@
             key-positions = <53 54 55>;
             layers = <12>;
         };
+
+        macro_nav_in {
+            bindings = <&to 14>;
+            key-positions = <0 1>;
+            layers = <12>;
+        };
+
+        macro_nav_out {
+            bindings = <&to 12>;
+            key-positions = <0 1>;
+            layers = <14>;
+        };
     };
 
     keymap {
@@ -399,11 +411,11 @@
 
         Game {
             bindings = <
-&kp GRAVE  &kp N1         &kp N2  &kp N3  &kp N4     &kp N5                      &trans           &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
-&kp TAB    &kp Q          &kp W   &kp E   &kp R      &kp T                       &to 0            &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
-&kp LCTRL  &kp A          &kp S   &kp D   &kp F      &kp G                       &macro_win_lang  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z          &kp X   &kp C   &kp V      &kp B                       &trans           &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&trans     &kp BACKSPACE  &mo 15  &mo 13  &kp SPACE  &lt_prefer_tap 14 ESCAPE    &trans           &kp ENTER  &trans  &kp ENTER  &trans   &trans
+&kp GRAVE  &kp N1         &kp N2  &kp N3  &kp N4     &kp N5        &trans           &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
+&kp TAB    &kp Q          &kp W   &kp E   &kp R      &kp T         &to 0            &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
+&kp LCTRL  &kp A          &kp S   &kp D   &kp F      &kp G         &macro_win_lang  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z          &kp X   &kp C   &kp V      &kp B         &trans           &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&trans     &kp BACKSPACE  &mo 15  &mo 13  &kp SPACE  &kp ESCAPE    &trans           &kp ENTER  &trans  &kp ENTER  &trans   &trans
             >;
 
             label = "Game";
