@@ -114,6 +114,8 @@
             #binding-cells = <0>;
             bindings = <&none &kp G &kp I &kp T &kp SPACE &kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE &kp MINUS &kp MINUS &kp A &kp M &kp E &kp N &kp D &kp SPACE &kp MINUS &kp MINUS &kp N &kp O &kp MINUS &kp E &kp D &kp I &kp T>;
             label = "MACRO_GIT_AMEND";
+            wait-ms = <30>;
+            tap-ms = <30>;
         };
 
         macro_vim_save: macro_vim_save {
@@ -121,6 +123,8 @@
             #binding-cells = <0>;
             bindings = <&none &kp COLON &kp W &kp RET>;
             label = "MACRO_VIM_SAVE";
+            wait-ms = <30>;
+            tap-ms = <30>;
         };
 
         macro_vim_quit: macro_vim_quit {
@@ -128,6 +132,8 @@
             #binding-cells = <0>;
             bindings = <&none &kp COLON &kp Q &kp RET>;
             label = "MACRO_VIM_QUIT";
+            wait-ms = <30>;
+            tap-ms = <30>;
         };
 
         macro_tmux_switch: macro_tmux_switch {
