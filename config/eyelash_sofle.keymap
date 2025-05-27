@@ -278,6 +278,7 @@
 &kp LC(ESCAPE)           &macro_vim_clipboard  &trans           &kp LC(C)         &kp LC(V)       &kp LC(X)            &trans  &trans         &kp HOME            &trans        &kp END              &kp LC(N0)     &trans
 &trans                   &trans                &trans           &macro_alt_tab    &caps_word      &kp LC(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
             >;
+            display-name = "Up_Mac";
         };
 
         Up_Mac {
