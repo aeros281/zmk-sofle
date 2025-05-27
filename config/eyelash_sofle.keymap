@@ -400,11 +400,11 @@
 
         Game {
             bindings = <
-&kp N5  &kp GRAVE      &kp LSHFT  &kp N2  &kp N3     &kp N4                      &trans           &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
-&kp T   &kp TAB        &kp Q      &kp W   &kp E      &kp R                       &to 0            &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
-&kp G   &kp LCTRL      &kp A      &kp S   &kp D      &kp G                       &macro_win_lang  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
-&kp B   &kp LSHFT      &kp Z      &kp X   &kp C      &kp V                       &trans           &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&trans  &kp BACKSPACE  &mo 14     &mo 13  &kp SPACE  &lt_prefer_tap 14 ESCAPE    &trans           &kp ENTER  &trans  &kp ENTER  &trans   &trans
+&kp GRAVE  &kp N1         &kp N2  &kp N3  &kp N4     &kp N5                      &trans           &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
+&kp TAB    &kp Q          &kp W   &kp E   &kp R      &kp T                       &to 0            &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
+&kp LCTRL  &kp A          &kp S   &kp D   &kp F      &kp G                       &macro_win_lang  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z          &kp X   &kp C   &kp V      &kp B                       &trans           &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&trans     &kp BACKSPACE  &mo 15  &mo 13  &kp SPACE  &lt_prefer_tap 14 ESCAPE    &trans           &kp ENTER  &trans  &kp ENTER  &trans   &trans
             >;
 
             label = "Game";
@@ -412,11 +412,11 @@
 
         Game_Alt {
             bindings = <
-&kp F5  &kp F9  &kp F1     &kp F2   &kp F3  &kp F4    &kp LS(LA(LC(LG(BACKSLASH))))  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&kp P   &kp N   &kp J      &kp I    &kp O   &kp H     &kp LS(LA(LC(LG(SQT))))        &trans  &trans  &trans  &trans  &trans   &kp F12
-&kp L   &kp N4  &kp N1     &kp N2   &kp N3  &kp N5    &trans                         &trans  &trans  &trans  &trans  &trans   &trans
-&kp Y   &kp M   &kp COMMA  &kp DOT  &kp U   &kp K     &kp D                          &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &trans  &trans     &trans   &trans  &trans    &kp LS(LA(LC(LG(SEMICOLON))))  &trans  &trans  &trans  &trans  &trans
+&kp F9  &kp F1     &kp F2          &kp F3  &kp F4  &kp F5    &kp LS(LA(LC(LG(BACKSLASH))))  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&kp N   &kp J      &kp I           &kp O   &kp H   &kp P     &kp LS(LA(LC(LG(SQT))))        &trans  &trans  &trans  &trans  &trans   &kp F12
+&kp N4  &kp N1     &kp N2          &kp N3  &kp N5  &kp L     &trans                         &trans  &trans  &trans  &trans  &trans   &trans
+&kp M   &kp COMMA  &kp DOT         &kp U   &kp K   &kp Y     &kp D                          &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &trans     &kt LEFT_SHIFT  &trans  &trans  &trans    &kp LS(LA(LC(LG(SEMICOLON))))  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "GAlt";
@@ -424,14 +424,26 @@
 
         Game_Nav {
             bindings = <
-&kp F12        &kp F6          &kp F7          &kp F8          &kp F9     &kp F10       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F11        &kp APOS        &kp LBKT        &kp UP_ARROW    &kp RBKT   &kp DELETE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp BACKSLASH  &kp LEFT_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp ENTER     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp SLASH      &kp INS         &kp MINUS       &kp EQUAL       &kp N9     &kp FSLH      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans          &trans          &trans          &trans     &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&kp F12        &kp F6          &kp F7        &kp F8     &kp F9     &kp F10       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F11        &kp LBKT        &kp UP_ARROW  &kp RBKT   &kp RBKT   &kp DELETE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp BACKSLASH  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER  &kp ENTER     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp SLASH      &kp INS         &kp MINUS     &kp EQUAL  &kp N9     &kp FSLH      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans          &trans        &trans     &trans     &trans        &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "GNav";
+        };
+
+        GameNum {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N7  &kp N8  &kp N9  &kp N0  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N4  &kp N5  &kp N6  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "GameNum";
         };
     };
 
