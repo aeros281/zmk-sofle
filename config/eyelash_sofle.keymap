@@ -238,7 +238,7 @@
         Win {
             bindings = <
 &kp GRAVE                           &kp N1           &kp N2           &kp N3               &kp N4             &kp N5                         &to 1            &kp N6                  &kp N7              &kp N8               &kp N9           &kp N0              &kp MINUS
-&kp TAB                             &kp Q            &kp W            &kp E                &kp R              &kp T                          &kp DOWN_ARROW   &kp Y                   &kp U               &kp I                &kp O            &kp P               &kp BSLH
+&kp TAB                             &kp Q            &kp W            &kp E                &kp R              &kp T                          &to 12           &kp Y                   &kp U               &kp I                &kp O            &kp P               &kp BSLH
 &mt_prefer_tap LEFT_CONTROL ESCAPE  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G                          &macro_win_lang  &kp H                   &hmr RIGHT_SHIFT J  &hmr LEFT_CONTROL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMI  &kp APOS
 &kp LSHFT                           &kp Z            &kp X            &kp C                &kp V              &kp B                          &kp RIGHT_ARROW  &kp N                   &kp M               &kp COMMA            &kp DOT          &kp FSLH            &kp ENTER
 &kp C_MUTE                          &none            &none            &lt 6 LEFT_ALT       &lt 5 ENTER        &lt_prefer_hold 2 BACKSPACE    &kp ENTER        &lt_prefer_tap 3 SPACE  &mo 7               &lt 9 LEFT_WIN       &none            &none
@@ -256,6 +256,7 @@
 &trans                      &trans  &trans  &trans  &trans  &trans    &trans           &trans                  &trans  &trans  &trans  &trans  &trans
 &trans                      &trans  &trans  &trans  &trans  &trans    &trans           &lt_prefer_tap 4 SPACE  &trans  &trans  &trans  &trans
             >;
+
             display-name = "Mac";
         };
 
@@ -267,6 +268,7 @@
 &trans     &kp CARET        &kp AMPERSAND  &kp LESS_THAN  &kp GREATER_THAN  &kp ASTERISK    &trans  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE       &kp BACKSLASH    &kp GRAVE
 &trans     &trans           &trans         &trans         &trans            &trans          &trans  &trans     &trans                &trans                 &trans          &trans
             >;
+
             display-name = "NumSym";
         };
 
@@ -278,6 +280,7 @@
 &kp LC(ESCAPE)           &macro_vim_clipboard  &trans           &kp LC(C)         &kp LC(V)       &kp LC(X)            &trans  &trans         &kp HOME            &trans        &kp END              &kp LC(N0)     &trans
 &trans                   &trans                &trans           &macro_alt_tab    &caps_word      &kp LC(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
             >;
+
             display-name = "Up_Mac";
         };
 
@@ -289,6 +292,7 @@
 &kp LC(ESCAPE)        &macro_vim_clipboard  &trans           &kp LG(C)         &kp LG(V)       &kp LG(X)            &trans  &trans         &kp LG(LEFT)        &trans        &kp LG(RIGHT)        &kp LC(N0)     &kp LG(GRAVE)
 &trans                &trans                &trans           &macro_gui_tab    &caps_word      &kp LA(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
             >;
+
             display-name = "Up_Mac";
         };
 
@@ -300,6 +304,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &mmv MOVE_RIGHT  &trans          &trans          &trans          &trans           &trans  &trans
 &trans  &trans    &trans    &trans     &trans     &trans    &mkp LCLK        &mkp LCLK       &mkp RCLK       &trans          &trans           &trans
             >;
+
             display-name = "Mouse";
         };
 
@@ -311,6 +316,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans  &kp F1  &kp F2  &kp F3  &trans   &trans
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
             display-name = "Fun";
         };
 
@@ -322,6 +328,7 @@
 &kp LC(B)  &trans              &trans           &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans              &trans           &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
             display-name = "Macros";
         };
 
@@ -333,6 +340,7 @@
 &kp LC(B)  &tmux Z  &tmux X  &tmux C  &tmux DOUBLE_QUOTES  &tmux B    &trans  &tmux DOLLAR   &tmux N1  &tmux N2  &tmux N3  &tmux FSLH  &trans
 &trans     &trans   &trans   &trans   &trans               &trans     &trans  &trans         &trans    &trans    &trans    &trans
             >;
+
             display-name = "Tmux";
         };
 
@@ -344,6 +352,7 @@
 &trans  &trans  &kp C_VOLUME_DOWN  &kp C_MUTE  &kp C_VOLUME_UP  &trans          &trans  &trans  &trans      &trans    &trans      &trans  &trans
 &trans  &trans  &trans             &trans      &trans           &trans          &trans  &trans  &trans      &trans    &trans      &trans
             >;
+
             display-name = "Media";
         };
 
@@ -355,6 +364,7 @@
 &trans          &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
             display-name = "Sys";
         };
 
@@ -367,7 +377,44 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans        &trans  &kp N0  &trans  &trans
             >;
         };
-            display-name = "Num_Alt";
+
+        Game {
+            bindings = <
+&kp GRAVE  &kp N1  &kp N2  &kp N3     &kp N4   &kp N5    &trans  &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp F12
+&kp TAB    &kp Q   &kp W   &kp E      &kp R    &kp T     &to 0   &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
+&kp LCTRL  &kp A   &kp S   &kp D      &kp F    &kp G     &trans  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z   &kp X   &kp C      &kp V    &kp B     &trans  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&trans     &mo 14  &mo 13  &kp SPACE  &kp ESC  &kp N0    &trans  &kp ENTER  &trans  &kp ENTER  &trans   &trans
+            >;
+
+            label = "Game";
+        };
+
+        Game_Alt {
+            bindings = <
+&kp F9  &kp F1     &kp F2   &kp F3  &kp F4  &kp F5    &kp F6  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&kp N   &kp J      &kp I    &kp O   &kp H   &kp P     &trans  &trans  &trans  &trans  &trans  &trans   &kp F12
+&kp N4  &kp N1     &kp N2   &kp N3  &kp N5  &kp L     &trans  &trans  &trans  &trans  &trans  &trans   &trans
+&kp M   &kp COMMA  &kp DOT  &kp U   &kp K   &kp Y     &kp D   &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &trans     &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "GAlt";
+        };
+
+        Game_Nav {
+            bindings = <
+&trans  &trans          &trans        &trans     &trans     &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &kp UP_ARROW  &trans     &trans     &kp DELETE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER  &kp BSLH      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp INS         &kp MINUS     &kp EQUAL  &kp N9     &kp FSLH      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans        &trans     &trans     &trans        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "GNav";
+        };
+
+        display-name = "Num_Alt";
     };
 
     conditional_layers {
