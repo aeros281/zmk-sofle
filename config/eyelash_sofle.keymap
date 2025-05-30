@@ -435,11 +435,11 @@
 
         Game_Nav {
             bindings = <
-&kp F12        &kp F6          &kp F7        &kp F8     &kp F9     &kp F10       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F11        &kp LBKT        &kp UP_ARROW  &kp RBKT   &kp RBKT   &kp DELETE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp BACKSLASH  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER  &kp ENTER     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp SLASH      &kp INS         &kp MINUS     &kp EQUAL  &kp N9     &kp FSLH      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans          &trans        &trans     &trans     &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&kp HOME       &kp COMMA       &kp DOT       &kp SEMI   &kp APOS       &kp LGUI      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp END        &kp LBKT        &kp UP_ARROW  &kp RBKT   &kp DELETE     &kp DELETE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER      &kp CAPS      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp PAGE_DOWN  &kp INS         &kp MINUS     &kp EQUAL  &kp BACKSLASH  &kp FSLH      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans          &trans        &trans     &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "GNav";
@@ -447,11 +447,11 @@
 
         GameNum {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &kp N7  &kp N8  &kp N9  &kp N0     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &kp N4  &kp N5  &kp N6  &kp ENTER  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp N1  &kp N2  &kp N3  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp F12     &kp F6  &kp F7  &kp F8  &kp F9     &kp F10    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F11     &kp N7  &kp N8  &kp N9  &kp N0     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp N4  &kp N5  &kp N6  &kp ENTER  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp N1  &kp N2  &kp N3  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "GameNum";
