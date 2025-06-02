@@ -616,7 +616,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:play-pause$$
   - $$mdi:arrow-right-bold$$
-  - '9'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:brightness-7$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -626,11 +626,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '9'
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
