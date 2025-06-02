@@ -394,7 +394,7 @@
 &kp ESCAPE  &kp C_PREVIOUS     &kp ENTER   &kp C_NEXT       &kp NUMBER_0  &kp C_BRI_UP    &trans  &trans  &kp C_PREV  &kp ENTER  &kp C_NEXT  &trans  &trans
 &trans      &kp LEFT_ARROW     &kp C_PP    &kp RIGHT        &kp ENTER     &kp C_BRI_DN    &trans  &trans  &kp LEFT    &kp C_PP   &kp RIGHT   &trans  &trans
 &trans      &kp C_VOLUME_DOWN  &kp C_MUTE  &kp C_VOLUME_UP  &kp NUMBER_9  &kp NUMBER_0    &trans  &trans  &trans      &trans     &trans      &trans  &trans
-&trans      &trans             &trans      &kp SPACE        &trans        &trans          &trans  &trans  &trans      &trans     &trans      &trans
+&trans      &trans             &trans      &trans           &kp SPACE     &trans          &trans  &trans  &trans      &trans     &trans      &trans
             >;
 
             display-name = "Media";
