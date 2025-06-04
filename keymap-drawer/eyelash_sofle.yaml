@@ -235,7 +235,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: Ctl+-, s: Ctl+_}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+$$mdi:keyboard-esc$$
+  - Ctl+Gui+$$mdi:arrow-left-bold$$
   - '&macro_vim_clipboard'
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+C
@@ -247,7 +247,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - {t: Ctl+0, s: Ctl+)}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
