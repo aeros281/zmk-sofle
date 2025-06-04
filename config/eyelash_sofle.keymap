@@ -321,7 +321,7 @@
 &trans                   &trans                &trans           &trans            &trans          &trans               &trans  &trans         &trans              &trans        &trans               &trans         &kp DELETE
 &kp LS(LA(LC(LG(TAB))))  &kp LA(F4)            &kp LC(LS(TAB))  &kp LC(LS(A))     &kp LC(TAB)     &kp LG(TAB)          &trans  &kp PAGE_UP    &kp LC(LEFT_ARROW)  &kp UP_ARROW  &kp LC(RIGHT_ARROW)  &kp LC(EQUAL)  &kp BACKSPACE
 &kp LS(LEFT_WIN)         &sk LEFT_WIN          &sk LEFT_ALT     &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp CAPS             &trans  &kp PAGE_DOWN  &kp LEFT            &kp DOWN      &kp RIGHT_ARROW      &kp LC(MINUS)  &trans
-&kp LC(ESCAPE)           &macro_vim_clipboard  &trans           &kp LC(C)         &kp LC(V)       &kp LC(X)            &trans  &trans         &kp HOME            &trans        &kp END              &kp LC(N0)     &trans
+&kp LC(LG(LEFT_ARROW))   &macro_vim_clipboard  &trans           &kp LC(C)         &kp LC(V)       &kp LC(X)            &trans  &trans         &kp HOME            &trans        &kp END              &kp LC(N0)     &kp LC(LG(RIGHT))
 &trans                   &trans                &trans           &macro_alt_tab    &caps_word      &kp LC(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
             >;
 
