@@ -297,7 +297,7 @@
 &trans                      &trans  &trans  &trans  &trans  &trans    &to 0            &trans                  &trans  &trans  &trans  &trans  &trans
 &trans                      &trans  &trans  &trans  &trans  &trans    &trans           &trans                  &trans  &trans  &trans  &trans  &trans
 &mt_prefer_tap LCMD ESCAPE  &trans  &trans  &trans  &trans  &trans    &macro_mac_lang  &trans                  &trans  &trans  &trans  &trans  &trans
-&macro_win_lang             &trans  &trans  &trans  &trans  &trans    &trans           &trans                  &trans  &trans  &trans  &trans  &kp LG(GRAVE)
+&macro_gui_tab              &trans  &trans  &trans  &trans  &trans    &trans           &trans                  &trans  &trans  &trans  &trans  &kp LG(GRAVE)
 &trans                      &trans  &trans  &trans  &trans  &trans    &trans           &lt_prefer_tap 4 SPACE  &trans  &trans  &trans  &trans
             >;
 
