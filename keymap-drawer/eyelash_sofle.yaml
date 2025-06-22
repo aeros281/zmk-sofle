@@ -64,7 +64,7 @@ layers:
   - Macros
   - {t: LEFT WIN, h: Media}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&macro_win_lang'
   Mac:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -129,7 +129,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro_mac_lang'
   NumSym:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -170,7 +170,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Media, h: toggle}
   - ^
   - '&'
   - <
@@ -1133,6 +1133,3 @@ combos:
 - p: [0, 1]
   k: {t: Game, h: toggle}
   l: [GNav]
-- p: [62, 63]
-  k: {t: Media, h: toggle}
-  l: [Base, Mac]
