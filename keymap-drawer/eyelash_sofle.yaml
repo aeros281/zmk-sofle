@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Up_Win}
   - Macros
   - {t: LEFT WIN, h: Media}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+A
   - '&macro_win_lang'
   Mac:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Up_Mac}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Sft+A
   - '&macro_mac_lang'
   NumSym:
   - {t: '$$mdi:transfer$$', type: trans}
