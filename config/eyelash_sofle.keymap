@@ -435,7 +435,7 @@
 &kp F9  &kp F1     &kp F2          &kp F3  &kp F4  &kp F5    &kp LS(LA(LC(LG(BACKSLASH))))  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &kp N   &kp J      &kp I           &kp O   &kp H   &kp P     &kp LS(LA(LC(LG(SQT))))        &trans  &trans  &trans  &trans  &trans   &kp F12
 &kp N4  &kp N1     &kp N2          &kp N3  &kp N5  &kp L     &trans                         &trans  &trans  &trans  &trans  &trans   &trans
-&kp M   &kp COMMA  &kp DOT         &kp U   &kp K   &kp Y     &kp D                          &trans  &trans  &trans  &trans  &trans   &trans
+&kp M   &kp COMMA  &kp DOT         &kp U   &kp K   &kp Y     &kp D                          &trans  &trans  &trans  &trans  &trans   &kt DELETE
 &trans  &trans     &kt LEFT_SHIFT  &trans  &trans  &trans    &kp LS(LA(LC(LG(SEMICOLON))))  &trans  &trans  &trans  &trans  &trans
             >;
 
