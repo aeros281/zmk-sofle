@@ -897,7 +897,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
