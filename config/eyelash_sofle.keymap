@@ -424,7 +424,7 @@
 &kp TAB    &kp Q          &kp W   &kp E   &kp R      &kp T     &to 0               &kp Y      &kp U      &kp I      &kp O    &kp P     &kp BSLH
 &kp LCTRL  &kp A          &kp S   &kp D   &kp F      &kp G     &kp LC(LA(LS(F2)))  &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp APOS
 &kp LSHFT  &kp Z          &kp X   &kp C   &kp V      &kp B     &kp LC(LA(LS(F1)))  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&trans     &kp BACKSPACE  &mo 14  &mo 15  &kp SPACE  &mo 13    &trans              &kp SPACE  &kp ENTER  &kp ENTER  &trans   &trans
+&trans     &kp BACKSPACE  &mo 14  &mo 15  &kp SPACE  &mo 13    &trans              &kp SPACE  &kp ENTER  &kp ENTER  &trans   &to 16
             >;
 
             label = "Game";
@@ -468,11 +468,11 @@
 
         Lol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans     &to 12
             >;
 
             label = "Lol";
