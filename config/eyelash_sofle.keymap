@@ -316,7 +316,7 @@
 &kp LS(LA(LC(LG(TAB))))  &kp LA(F4)            &kp LC(LS(TAB))  &kp LC(LS(A))     &kp LC(TAB)     &kp LG(TAB)          &trans  &kp PAGE_UP    &kp LC(LEFT_ARROW)  &kp UP_ARROW  &kp LC(RIGHT_ARROW)  &kp LC(EQUAL)  &kp BACKSPACE
 &kp LS(LEFT_WIN)         &sk LEFT_WIN          &sk LEFT_ALT     &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp CAPS             &trans  &kp PAGE_DOWN  &kp LEFT            &kp DOWN      &kp RIGHT_ARROW      &kp LC(MINUS)  &trans
 &kp LC(LG(LEFT_ARROW))   &macro_vim_clipboard  &trans           &kp LC(C)         &kp LC(V)       &kp LC(X)            &trans  &trans         &kp HOME            &trans        &kp END              &kp LC(N0)     &kp LC(LG(RIGHT))
-&trans                   &trans                &trans           &macro_alt_tab    &kp DELETE      &kp LC(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
+&trans                   &trans                &trans           &macro_alt_tab    &kp DELETE      &kp LC(BACKSPACE)    &trans  &trans         &macro_win_lang     &trans        &trans               &trans
             >;
 
             display-name = "Up_Win";
@@ -328,7 +328,7 @@
 &kp LA(TAB)           &kp LG(Q)             &kp LC(LS(TAB))  &kp LG(LS(A))     &kp LC(TAB)     &kp LC(UP_ARROW)     &trans  &kp PAGE_UP    &kp LA(LEFT_ARROW)  &kp UP_ARROW  &kp LA(RIGHT_ARROW)  &kp LC(EQUAL)  &kp BACKSPACE
 &kp LA(LC(LEFT_WIN))  &sk LEFT_WIN          &sk LEFT_ALT     &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp CAPS             &trans  &kp PAGE_DOWN  &kp LEFT            &kp DOWN      &kp RIGHT_ARROW      &kp LC(MINUS)  &trans
 &kp LC(LEFT)          &macro_vim_clipboard  &trans           &kp LG(C)         &kp LG(V)       &kp LG(X)            &trans  &trans         &kp LG(LEFT)        &trans        &kp LG(RIGHT)        &kp LC(N0)     &kp LC(RIGHT)
-&trans                &trans                &trans           &macro_gui_tab    &kp DELETE      &kp LA(BACKSPACE)    &trans  &trans         &trans              &trans        &trans               &trans
+&trans                &trans                &trans           &macro_gui_tab    &kp DELETE      &kp LA(BACKSPACE)    &trans  &trans         &macro_mac_lang     &trans        &trans               &trans
             >;
 
             display-name = "Up_Mac";
