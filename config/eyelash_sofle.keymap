@@ -468,11 +468,11 @@
 
         Lol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans     &to 12
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans           &trans           &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BSPC         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_SUBTRACT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DIVIDE    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &kp ENTER        &kp KP_NUMBER_0  &kp KP_DOT       &to 12
             >;
 
             label = "Lol";
