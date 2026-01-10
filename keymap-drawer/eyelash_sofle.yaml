@@ -59,7 +59,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: Fun}
   - {t: '$$mdi:keyboard-return$$', h: Mouse}
   - {t: '$$mdi:backspace$$', h: NumSym}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: Game, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: Up_Win}
   - Macros
   - {t: LEFT WIN, h: Media}
@@ -800,7 +800,7 @@ layers:
   - E
   - R
   - T
-  - {t: Base, h: toggle}
+  - {t: GNav, h: toggle}
   - Y
   - U
   - I
@@ -839,7 +839,7 @@ layers:
   - GameNum
   - $$mdi:keyboard-space$$
   - GAlt
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Base, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -1019,7 +1019,7 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - $$mdi:keyboard-esc$$
+  - B
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
