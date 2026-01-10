@@ -16,5 +16,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-behavior-key-tempo
+      remote: badjeff
+      revision: main
   self:
     path: boards
