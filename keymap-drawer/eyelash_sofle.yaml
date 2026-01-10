@@ -844,7 +844,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&temp'
+  - '&tempo'
   GAlt:
   - F9
   - F1
