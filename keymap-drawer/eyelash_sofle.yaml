@@ -843,8 +843,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&tempo'
+  - F16
+  - F15
   GAlt:
   - F9
   - F1
