@@ -4827,12 +4827,6 @@ rect.held, rect.combo.held {
 <text x="196" y="257" class="combo tap layer-activator">Base</text>
 </a><text x="196" y="268" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<a href="#GNav">
-<text x="56" y="56" class="combo tap layer-activator">GNav</text>
-</a><text x="56" y="67" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 5047)" class="layer-GAlt">
@@ -5508,12 +5502,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<a href="#Game">
-<text x="56" y="56" class="combo tap layer-activator">Game</text>
-</a><text x="56" y="67" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

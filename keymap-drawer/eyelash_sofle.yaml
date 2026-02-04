@@ -1127,9 +1127,3 @@ combos:
 - p: [53, 54, 55]
   k: {t: Base, h: toggle}
   l: [Game]
-- p: [0, 1]
-  k: {t: GNav, h: toggle}
-  l: [Game]
-- p: [0, 1]
-  k: {t: Game, h: toggle}
-  l: [GNav]
