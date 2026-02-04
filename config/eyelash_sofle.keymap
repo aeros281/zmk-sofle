@@ -257,18 +257,6 @@
             key-positions = <53 54 55>;
             layers = <12>;
         };
-
-        macro_nav_in {
-            bindings = <&to 14>;
-            key-positions = <0 1>;
-            layers = <12>;
-        };
-
-        macro_nav_out {
-            bindings = <&to 12>;
-            key-positions = <0 1>;
-            layers = <14>;
-        };
     };
 
     keymap {
